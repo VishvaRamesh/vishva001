@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Turtle Hatcheries</title>
+
+<link href="CSS.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+ 
+    
+
+    <div class="home">
+        <!----About logo---->    
+                <nav>
+                    <h2 class="logo">
+                        <img src="Untitled-5.png" class="logo">
+                    </h2>
+        <!----About menu---->
+                <div class="menu">
+                    <ul>
+                        <li><a href="Homepaage.html">Home</a></li>
+                        <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                        <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                        <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li> 
+                        <li><a href="#">Other turtle hatcheries</a>
+                            <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="Kosgoda.html">Kosgoda</a></li><br>
+                                        <li><a href="Bentota.html">Bentota</a></li><br>
+                                    </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        
+                    <a href="PurchaseAndDonate.html" class="btn">Purchase and Donate</a>
+                    <div class="barbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+        
+                        <div class="dropdownmenu">
+                            <ul>
+                                <li><a href="Homepaage.html">Home</a></li>
+                                <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                                <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                                <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li> 
+                                <li><a href="#">Other turtle hatcheries</a>
+                                    <div class="sub-menu">
+                                            <ul>
+                                                <li><a href="Kosgoda.html">Kosgoda</a></li><br>
+                                                <li><a href="Bentota.html">Bentota</a></li><br>
+                                            </ul>
+                                    </div>
+                                </li>
+                                <li><a href="PurchaseAndDonate.html" class="btn">Purchase and Donate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <script>
+        
+                        const BarBtn =document.querySelector('.barbtn') 
+                        const BarBtnIcon=document.querySelector('.barbtn i')
+                        const dropDownMenu=document.querySelector('.dropdownmenu')
+                        
+                        BarBtn.onclick= function () {
+                            dropDownMenu.classList.toggle('open')
+                            const isOpen=dropDownMenu.classList.contains('open')
+                        
+                            BarBtnIcon.classList=isopen
+                                ? 'fa-solid fa-xmark'
+                                : 'fa-solid fa-bars'
+                        }
+                        
+                    </script>
+                
+                </nav>
+        
+    </div>
+    <section class="about">
+        <div class="content">
+            <h5>Turtle Categories</h5>
+            <h6>In Sri Lanka, various turtle species can be found along its coastline and in the surrounding waters. 
+                Here are some of the turtle categories that can be observed in Sri Lanka:</h6>
+            
+        </div>
+        <div class="main">
+            <div class="about-text">
+                <h3>Green Turtle<span> (Chelonia mydas)</span></h3>
+                <img src="image7.webp" >
+                <p>The Green turtle is one of the most abundant turtle species found in Sri Lanka. 
+                    It is known for its large size, herbivorous diet, and the green coloration of its fat. 
+                    Sri Lanka's beaches serve as important nesting sites for Green turtles.
+                </p>
+                
+                <h5>Map of the beaches which has high population densities</h5>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31741.16997267186!2d80\
+                    .84312466807837!3d6.043180319896438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a
+                    e6b5f45ab3a78d%3A0x40cd389a8beb90d5!2sRekawa%20Beach!5e0!3m2!1sen!2slk!4v1685333717588!5m2!1sen!2slk" 
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="main">
+
+            <div class="about-text">
+                <h3>Hawksbill Turtle<span> (Eretmochelys imbricata)</span></h3>
+                <img src="image8.jpg" >
+                <p>The Hawksbill turtle is another prominent turtle species in Sri Lanka. 
+                    It is renowned for its beautifully patterned shell, which is highly sought after in the illegal wildlife trade. 
+                    Hawksbill turtles nest on Sri Lanka's sandy beaches.
+                </p>
+
+                <h5>Map of the beaches which has high population densities</h5>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2021382.
+                    0661384754!2d79.606450831911!3d8.301618749800324!2m3!1f0!2f0!3f0!3m2!1i1024
+                    !2i768!4f13.1!3m3!1m2!1s0x3afbbfbf56b2326f%3A0x7b13c75a4db5fbcf!2sPigeon%20
+                    Island%20Marine%20National%20Park!5e0!3m2!1sen!2slk!4v1685505006479!5m2!1se
+                    n!2slk" width="100%" height="500" style="border:0;" allowfullscreen="" 
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="main">
+
+            <div class="about-text">
+                <h3>Loggerhead Turtle<span> (Caretta caretta)</span></h3>
+                <img src="image9.jpg" >
+                <p>Loggerhead turtles can also be found in Sri Lanka's coastal waters.
+                    These turtles have a large head and strong jaws, 
+                    which they use to feed on hard-shelled prey like crabs and mollusks.
+                </p>
+
+                <h5>Map of the beaches which has high population densities</h5>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31723.49182756358!2d80.
+                    01336311817464!3d6.33746740647407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2
+                    2bcc8b8f4f5b%3A0x672dca279a50537f!2sKosgoda!5e0!3m2!1sen!2slk!4v1685267581932!5m2!1sen!2slk" 
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="
+                    no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="main">
+
+            <div class="about-text">
+                <h3>Olive Ridley Turtle<span> (Lepidochelys olivacea)</span></h3>
+                <img src="image10.jpg" >
+                <p>Olive Ridley turtles visit Sri Lanka's beaches for nesting purposes. 
+                    They are known for their synchronized mass nesting events, also called arribadas, 
+                    where hundreds or even thousands of turtles come ashore simultaneously to lay their eggs.
+                </p>
+
+                <h5>Map of the beaches which has high population densities</h5>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63122.114
+                    17052883!2d81.17201657707854!3d8.583291986220402!2m3!1f0!2f0!3f0!3m2!1i1024!2
+                    i768!4f13.1!3m3!1m2!1s0x3afbbcb6902dbe27%3A0x7de76a7a331b0fbb!2sTrincomalee!5e
+                    0!3m2!1sen!2slk!4v1685509847491!5m2!1sen!2slk" width="100%" height="500" style="
+                    border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="main">
+
+            <div class="about-text">
+                <h3>Leatherback Turtle<span> (Dermochelys coriacea)</span></h3>
+                <img src="image11.jpg" >
+                <p>The Leatherback turtle, the largest of all sea turtles, 
+                    can occasionally be found in Sri Lanka's waters. These turtles have a unique leathery 
+                    hell instead of a hard one, and they are capable of diving to impressive depths.
+                </p>
+
+                <h5>Map of the beaches which has high population densities</h5>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d
+                    15860.529438345908!2d80.00711903022263!3d6.37690967290159!2m3!1f0!2f
+                    0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae22b2ef1581193%3A0x29915a
+                    c4e1fdab67!2sInduruwa%20Beach!5e0!3m2!1sen!2slk!4v1685505518948!5m2!1sen!2slk" 
+                    width="100%" height="500" style="border:0;" allowfullscreen="" 
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Turtle Species</th>
+                    <th>Image</th>
+                    <th>Where is it found</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="image7.webp" alt="">
+                    </td>
+                    <td>Green Turtle</td>
+                    <td>Kosgoda (north of Galle) and Rekawa (near Tangalle).</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image8.jpg" alt="">
+                    </td>
+                    <td>Hawksbill Turtle</td>
+                    <td>Pigeon Island National Park – located off the east coast of Sri Lanka.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image9.jpg" alt="">
+                    </td>
+                    <td>Loggerhead Turtle</td>
+                    <td>South & south-east shore of Sri Lanka including Kosgoda</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image10.jpg" alt="">
+                    </td>
+                    <td>Olive Ridley Turtle</td>
+                    <td>Trincomalee Beach – located on the east coast of Sri Lanka.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image11.jpg" alt="">
+                    </td>
+                    <td>Leatherback Turtle</td>
+                    <td>The island's northern waters.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="Homepaage.html">Home</a></li>
+                        <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                        <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                        <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li>
+                        <li><a herf="#">Other turtle hatcheries</a>
+                            <div class="footer-col-sub">
+                                <ul>
+                                    <li><a href="Kosgoda.html">Kosgoda</a></li>
+                                    <li><a href="Bentota.html">Bentota</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact us</h5>
+                    <ul>
+                        <li><a herf="#">Phone: +94 21 225 5555</a></li>
+                        <li><a herf="#">E-mail: turtlehatchery@sl.lk</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Purchase</h5>
+                    <ul>
+                        <li><a href="PurchaseAndDonate.html">T-Shirt</a></li>
+                        <li><a href="PurchaseAndDonate.html">Keychain</a></li>
+                        <li><a href="PurchaseAndDonate.html">Necklace</a></li>
+                        <li><a href="PurchaseAndDonate.html">Bracelet</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                   <h5><a href="PurchaseAndDonate.html" button type="Donate">Donate</a></h5>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Follow us</h5>
+                        <div class="social-links">
+                            <a herf="#"><i class="fab fa-facebook-f"></i></a>
+                            <a herf="#"><i class="fab fa-twitter"></i></a>
+                            <a herf="#"><i class="fab fa-instagram"></i></a>
+                            <a herf="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

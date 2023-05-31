@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Turtle Hatcheries</title>
+
+<link href="CSS.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+ 
+    <div class="home">
+        <!----About logo---->    
+                <nav>
+                    <h2 class="logo">
+                        <img src="Untitled-5.png" class="logo">
+                    </h2>
+        <!----About menu---->
+                <div class="menu">
+                    <ul>
+                        <li><a href="Homepaage.html">Home</a></li>
+                        <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                        <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                        <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li> 
+                        <li><a href="#">Other turtle hatcheries</a>
+                            <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="Kosgoda.html">Kosgoda</a></li><br>
+                                        <li><a href="Bentota.html">Bentota</a></li><br>
+                                    </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        
+                    <a href="PurchaseAndDonate.html" class="btn">Purchase and Donate</a>
+                    <div class="barbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+        
+                        <div class="dropdownmenu">
+                            <ul>
+                                <li><a href="Homepaage.html">Home</a></li>
+                                <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                                <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                                <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li> 
+                                <li><a href="#">Other turtle hatcheries</a>
+                                    <div class="sub-menu">
+                                            <ul>
+                                                <li><a href="Kosgoda.html">Kosgoda</a></li><br>
+                                                <li><a href="Bentota.html">Bentota</a></li><br>
+                                            </ul>
+                                    </div>
+                                </li>
+                                <li><a href="PurchaseAndDonate.html" class="btn">Purchase and Donate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <script>
+        
+                        const BarBtn =document.querySelector('.barbtn') 
+                        const BarBtnIcon=document.querySelector('.barbtn i')
+                        const dropDownMenu=document.querySelector('.dropdownmenu')
+                        
+                        BarBtn.onclick= function () {
+                            dropDownMenu.classList.toggle('open')
+                            const isOpen=dropDownMenu.classList.contains('open')
+                        
+                            BarBtnIcon.classList=isopen
+                                ? 'fa-solid fa-xmark'
+                                : 'fa-solid fa-bars'
+                        }
+                        
+                    </script>
+                
+                </nav>
+
+        </div>        
+<section class="about">
+    <div class="content">
+        <h5>Bentota Turtle Hatchery</h5>
+    </div>
+        <div class="main">
+            <div class="about-text">
+                   
+                    <p>The Bentota Turtle Hatchery Project provides an alluring breeding 
+                        site for endangered turtle species, such as Olive Ridley and Leatherback. 
+                        Its objective is to preserve and safeguard the eggs against predators and 
+                        other threats. To learn more about these beautiful and endangered marine 
+                        creatures, visit the turtle hatchery in Bentota.</p>
+                        <img src="image15.jpg">
+
+
+                    <p>In addition to having the chance to watch turtle hatchlings being released 
+                        into the ocean, visitors visiting the hatchery may also get to take part 
+                        in the process. Visitors may get a close-up view of these damaged turtles 
+                        at the hatchery, which also acts as a rehabilitation facility.</p>
+                        <img src="image32.jpg">
+
+                    <p>The Bentota Turtle Hatchery guards eggs and saves injured sea turtles 
+                        from fishing nets, engines, and other sources. It is located 10 minutes 
+                        away from our coastal homes and provides rehabilitation before being 
+                        allowed back home.</p>
+                        <img src="image4.jpg">
+                                          
+            </div>
+        </div>
+    </section>
+
+    <div class="map">
+        <h5>Map of the hatchery</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m
+        12!1m3!1d31718.0312241508!2d79.98614821820436!3d6.42565635
+        2457759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0
+        x3ae22e900168ca21%3A0x96c438f00a68c060!2sBentota!5e0!3m2!1sen
+        !2slk!4v1685521214475!5m2!1sen!2slk" width="100%" height="500" 
+        style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="Homepaage.html">Home</a></li>
+                        <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                        <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                        <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li>
+                        <li><a herf="#">Other turtle hatcheries</a>
+                            <div class="footer-col-sub">
+                                <ul>
+                                    <li><a href="Kosgoda.html">Kosgoda</a></li>
+                                    <li><a href="Bentota.html">Bentota</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact us</h5>
+                    <ul>
+                        <li><a herf="#">Phone: +94 21 225 5555</a></li>
+                        <li><a herf="#">E-mail: turtlehatchery@sl.lk</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Purchase</h5>
+                    <ul>
+                        <li><a href="PurchaseAndDonate.html">T-shirt</a></li>
+                        <li><a href="PurchaseAndDonate.html">Cap</a></li>
+                        <li><a href="PurchaseAndDonate.html">Doll</a></li>
+                        <li><a href="PurchaseAndDonate.html">Map</a></li>
+                        <li><h5><a href="PurchaseAndDonate.html">Donate</a></h5></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Follow us</h5>
+                        <div class="social-links">
+                            <a herf="#"><i class="fab fa-facebook-f"></i></a>
+                            <a herf="#"><i class="fab fa-twitter"></i></a>
+                            <a herf="#"><i class="fab fa-instagram"></i></a>
+                            <a herf="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

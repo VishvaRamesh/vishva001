@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Turtle Hatcheries</title>
+
+<link href="CSS.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+ 
+    
+
+    <div class="home">
+        <!----About logo---->    
+                <nav>
+                    <h2 class="logo">
+                        <img src="Untitled-5.png" class="logo">
+                    </h2>
+        <!----About menu---->
+                <div class="menu">
+                    <ul>
+                        <li><a href="Homepaage.html">Home</a></li>
+                        <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                        <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                        <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li> 
+                        <li><a href="#">Other turtle hatcheries</a>
+                            <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="Kosgoda.html">Kosgoda</a></li><br>
+                                        <li><a href="Bentota.html">Bentota</a></li><br>
+                                    </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        
+                    <a href="PurchaseAndDonate.html" class="btn">Purchase and Donate</a>
+                    <div class="barbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+        
+                        <div class="dropdownmenu">
+                            <ul>
+                                <li><a href="Homepaage.html">Home</a></li>
+                                <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                                <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                                <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li> 
+                                <li><a href="#">Other turtle hatcheries</a>
+                                    <div class="sub-menu">
+                                            <ul>
+                                                <li><a href="Kosgoda.html">Kosgoda</a></li><br>
+                                                <li><a href="Bentota.html">Bentota</a></li><br>
+                                            </ul>
+                                    </div>
+                                </li>
+                                <li><a href="PurchaseAndDonate.html" class="btn">Purchase and Donate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <script>
+        
+                        const BarBtn =document.querySelector('.barbtn') 
+                        const BarBtnIcon=document.querySelector('.barbtn i')
+                        const dropDownMenu=document.querySelector('.dropdownmenu')
+                        
+                        BarBtn.onclick= function () {
+                            dropDownMenu.classList.toggle('open')
+                            const isOpen=dropDownMenu.classList.contains('open')
+                        
+                            BarBtnIcon.classList=isopen
+                                ? 'fa-solid fa-xmark'
+                                : 'fa-solid fa-bars'
+                        }
+                        
+                    </script>
+                
+                </nav>
+            </div>
+        
+
+
+</div>
+<section class="about">
+    <div class="content">
+        <h5>Threats To Turtles</h5>
+        <h6>Turtles in Sri Lanka face various threats that endanger their populations and their habitats. 
+            Some of the significant threats include:</h6>
+        
+    </div>
+<div class="main">
+    <img src="image21.jpg" >
+    <div class="about-text">
+        <h3>Nesting Habitat Destruction</h3>
+        <p>
+            The loss of nesting habitats due to coastal development, tourism infrastructure, 
+            and coastal erosion is a significant threat to turtles. 
+            Coastal construction projects, such as hotels and resorts, 
+            can destroy or disrupt nesting beaches, which are crucial for successful reproduction.
+        </p>
+    </div>
+</div>
+</section>
+
+<section class="about">
+<div class="main">
+    <img src="image22.webp" >
+    <div class="about-text">
+        <h3>Pollution</h3>
+        <p>
+            Pollution, particularly marine pollution, poses a significant threat to turtles. 
+            Chemical pollutants, oil spills, plastic debris, and other types of marine litter 
+            can harm turtles through ingestion or entanglement. Plastic bags and fishing nets 
+            can be mistaken for food and cause internal injuries or blockages.
+        </p>
+    </div>
+</div>
+</section>
+
+<section class="about">
+<div class="main">
+    <img src="image23.jpg" >
+    <div class="about-text">
+        <h3>Bycatch and Illegal Wildlife Trade</h3>
+        <p>Sri Lanka is known to be a source and transit country for the illegal wildlife trade. 
+            Turtle eggs, meat, shells, and even live turtles are illegally traded for various purposes, 
+            including food, traditional medicine, and ornamental use. This trade puts additional 
+            pressure on already vulnerable turtle populations.
+        </p>
+        <p>
+            Turtles often get caught unintentionally in fishing gear, such as nets and longlines, 
+            as bycatch. This can lead to injury or death, particularly when they are 
+            unable to reach the water surface for breathing.
+        </p>
+
+    </div>
+</div>
+</section>
+
+<section class="about">
+<div class="main">
+    <img src="image24.jpg" >
+    <div class="about-text">
+        <h3>Coastal Light Pollution></h3>
+        <p>
+            Artificial lighting near nesting beaches can disorient nesting 
+            females and hatchlings. They may be drawn away from the sea and 
+            towards artificial light sources, leading to exhaustion, 
+            dehydration, and increased vulnerability to predators.
+        </p>
+    </div>
+</div>
+</section>
+
+<section class="about">
+<div class="main">
+    <div class="about-text">
+        <p>Conservation efforts are ongoing in Sri Lanka to address 
+            these threats and protect turtle populations. These efforts 
+            involve establishing protected areas, implementing strict 
+            regulations against illegal wildlife trade, promoting 
+            sustainable fishing practices, raising awareness among 
+            local communities, and conducting research and monitoring 
+            programs.
+        </p>
+    </div>
+</div>
+</section>
+
+<div class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>Other Turtle Hatcheries</th>
+            </tr>
+        </thead>
+    </table>
+    <div class="other">
+        <ul>
+            <li><a href="Kosgoda.html">Kosgoda Turtle Hatchery</a></li>
+            <li><a href="Bentota.html">Bentota Turtle Hatchery</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h5>Navigation</h5>
+                <ul>
+                    <li><a href="Homepaage.html">Home</a></li>
+                    <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                    <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                    <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li>
+                    <li><a herf="#">Other turtle hatcheries</a>
+                        <div class="footer-col-sub">
+                            <ul>
+                                <li><a href="Kosgoda.html">Kosgoda</a></li>
+                                <li><a href="Bentota.html">Bentota</a></li>
+                            </ul>
+                        </div>
+                    </li>
+            </div>
+            <div class="footer-col">
+                <h5>Contact us</h5>
+                <ul>
+                    <li><a herf="#">Phone: +94 21 225 5555</a></li>
+                    <li><a herf="#">E-mail: turtlehatchery@sl.lk</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Purchase</h5>
+                <ul>
+                    <li><a href="PurchaseAndDonate.html">T-Shirt</a></li>
+                    <li><a href="PurchaseAndDonate.html">Keychain</a></li>
+                    <li><a href="PurchaseAndDonate.html">Necklace</a></li>
+                    <li><a href="PurchaseAndDonate.html">Bracelet</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+               <h5><a href="PurchaseAndDonate.html" button type="Donate">Donate</a></h5>
+            </div>
+
+            <div class="footer-col">
+                <h5>Follow us</h5>
+                    <div class="social-links">
+                        <a herf="#"><i class="fab fa-facebook-f"></i></a>
+                        <a herf="#"><i class="fab fa-twitter"></i></a>
+                        <a herf="#"><i class="fab fa-instagram"></i></a>
+                        <a herf="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

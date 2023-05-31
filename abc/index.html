@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Turtle Hatcheries</title>
+
+<link href="CSS.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+ 
+    
+
+    <div class="home">
+<!----About logo---->    
+        <nav>
+            <h2 class="logo">
+                <img src="Untitled-5.png" class="logo">
+            </h2>
+<!----About menu---->
+        <div class="menu">
+            <ul>
+                <li><a href="Homepaage.html">Home</a></li>
+                <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li> 
+                <li><a href="#">Other turtle hatcheries</a>
+                    <div class="sub-menu">
+                            <ul>
+                                <li><a href="Kosgoda.html">Kosgoda</a></li><br>
+                                <li><a href="Bentota.html">Bentota</a></li><br>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+            <a href="PurchaseAndDonate.html" class="btn">Purchase and Donate</a>
+            <div class="barbtn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+                <div class="dropdownmenu">
+                    <ul>
+                        <li><a href="Homepaage.html">Home</a></li>
+                        <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                        <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                        <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li> 
+                        <li><a href="#">Other turtle hatcheries</a>
+                            <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="Kosgoda.html">Kosgoda</a></li><br>
+                                        <li><a href="Bentota.html">Bentota</a></li><br>
+                                    </ul>
+                            </div>
+                        </li>
+                        <li><a href="PurchaseAndDonate.html" class="btn">Purchase and Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <script>
+
+                const BarBtn =document.querySelector('.barbtn') 
+                const BarBtnIcon=document.querySelector('.barbtn i')
+                const dropDownMenu=document.querySelector('.dropdownmenu')
+                
+                BarBtn.onclick= function () {
+                    dropDownMenu.classList.toggle('open')
+                    const isOpen=dropDownMenu.classList.contains('open')
+                
+                    BarBtnIcon.classList=isopen
+                        ? 'fa-solid fa-xmark'
+                        : 'fa-solid fa-bars'
+                }
+                
+            </script>
+        
+        </nav>
+    </div>
+
+<!----About section start---->
+    <section class="about">
+        <div class="content">
+            <h1><span>Welcome</span></h1>
+            <h4>#SaveTheTurtles</h4>
+        </div>
+        <div class="main">
+            <div class="about-text">
+                <h3>An introduction of <span>the Sri Lankan turtle population</span></h3>
+                <h5>Population</h5>
+                <img src="image12.jpg">
+                <p>Sri Lanka is blessed with a diverse and abundant turtle population, 
+                    attracting both researchers and tourists from around the world. 
+                    The island nation's coastal areas serve as important nesting grounds 
+                    for several species of sea turtles, making it a vital location for their conservation.</p>
+
+                <h5>Turtle Categories</h5>
+                    <p>These are most common turtle species found in Sri Lanka</p>
+                    <img src="image13.jpg">
+                        <div class="turtlespecies">
+                                <li>Green turtle (Chelonia mydas)</li> 
+                                <li>Hawksbill turtle (Eretmochelys imbricata)</li>
+                                <li>Loggerhead turtle (Caretta caretta)</li>
+                                <li>Olive Ridley turtle (Lepidochelys olivacea)</li>
+                                <li>Leatherback turtle (Dermochelys coriacea)</li>
+                        </div>
+                    <p>These species play crucial roles in maintaining the marine ecosystem 
+                        and contribute to the overall biodiversity of Sri Lanka's coastal regions.</p>
+
+                    
+                    <p>The Green turtle, known for its large size and herbivorous diet, 
+                        is one of the most abundant turtle species in Sri Lanka. 
+                        It is often found grazing on seagrasses and algae near coral reefs. 
+                        The Hawksbill turtle, with its distinctive pointed beak, 
+                        is renowned for its beautiful shell, which is highly sought after 
+                        in the illegal wildlife trade. Sri Lanka is a significant nesting site for Hawksbill turtles.</p>
+
+                    <h5>Threats to turtles</h5>
+                    <img src="image16.jpg">
+                    <p>Sri Lanka's turtle population faces various threats that endanger their survival. 
+                        Nesting beaches are often disturbed by human activities, 
+                        such as coastal development and pollution. 
+                        Turtles also encounter risks from fishing gear, 
+                        entanglement in marine debris, and illegal poaching for their 
+                        meat, eggs, and shells. <br>
+                        <img src="image17.jpg"><br>
+                        Climate change, including rising sea levels and temperature, 
+                        further affects turtle habitats and nesting patterns.</p>
+                        
+
+                    <h5>Save the Turtles and Tourism</h5>
+                    <img src="image14.jpg">
+                    <p>To protect and conserve these endangered species, 
+                        Sri Lanka has established several turtle hatcheries and conservation projects, 
+                        as mentioned earlier. These initiatives play a crucial role in safeguarding turtle eggs, 
+                        raising awareness among local communities, and implementing measures to mitigate threats.</p>
+
+                    <img src="image18.jpg">
+                    <p>Efforts are also being made to promote sustainable tourism practices that 
+                        allow visitors to experience these magnificent creatures without disturbing their natural habitats. 
+                        By educating the public and fostering responsible tourism, 
+                        Sri Lanka aims to ensure the long-term survival of its turtle 
+                        population and preserve its rich biodiversity for generations to come.</p>
+
+                     
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="Homepaage.html">Home</a></li>
+                        <li><a href="TurtleCategories.html">Turtle categories</a></li>
+                        <li><a href="HikkaduwaTurtleHatchery.html">Hikkaduwa turtle hatchery</a></li>
+                        <li><a href="ThreatsToTurtles.html">Threats to turtles</a></li>
+                        <li><a herf="#">Other turtle hatcheries</a>
+                            <div class="footer-col-sub">
+                                <ul>
+                                    <li><a href="Kosgoda.html">Kosgoda</a></li>
+                                    <li><a href="Bentota.html">Bentota</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact us</h5>
+                    <ul>
+                        <li><a herf="#">Phone: +94 21 225 5555</a></li>
+                        <li><a herf="#">E-mail: turtlehatchery@sl.lk</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Purchase</h5>
+                    <ul>
+                        <li><a href="PurchaseAndDonate.html">T-Shirt</a></li>
+                        <li><a href="PurchaseAndDonate.html">Keychain</a></li>
+                        <li><a href="PurchaseAndDonate.html">Necklace</a></li>
+                        <li><a href="PurchaseAndDonate.html">Bracelet</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                   <h5><a href="PurchaseAndDonate.html" button type="Donate">Donate</a></h5>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Follow us</h5>
+                        <div class="social-links">
+                            <a herf="#"><i class="fab fa-facebook-f"></i></a>
+                            <a herf="#"><i class="fab fa-twitter"></i></a>
+                            <a herf="#"><i class="fab fa-instagram"></i></a>
+                            <a herf="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
